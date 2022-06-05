@@ -58,7 +58,7 @@ const createProduct = async (req, res) => {
           if (!validator.isValidValue(isFreeShipping)) {
             return res.status(400).send({ status: false, messege: "please provide valid isFreeShipping" })
         }
-        if ([true, false].indexOf(isFreeShipping) == -1)
+        if (["true", "false"].indexOf(isFreeShipping) == -1)
         return res.status(400).send({ status: false, message: "IsFreeShipping value should be true or false",})  
            
         }
@@ -289,7 +289,7 @@ const updateProduct = async (req, res) => {
       if (!validator.isValidValue(isFreeShipping))
         return res.status(400).send({ status: false, message: "Please provide isFreeShipping" });
 
-      if ([true, false].indexOf(isFreeShipping) == -1)
+      if (["true", "false"].indexOf(isFreeShipping) == -1)
         return res.status(400).send({ status: false, message: "IsFreeShipping value should be true or false",});
       newObj.isFreeShipping = isFreeShipping;      
 
