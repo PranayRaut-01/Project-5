@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PranayRaut-01/Project5_Group42.git"
+    "url": "git+https://github.com/PranayRaut-01/Project-5.git"
   },
   "author": "Pranay Raut",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PranayRaut-01/Project5_Group42/issues"
+    "url": "https://github.com/PranayRaut-01/Project-5/issues"
   },
-  "homepage": "https://github.com/PranayRaut-01/Project5_Group42#readme",
+  "homepage": "https://github.com/PranayRaut-01/Project-5#readme",
   "dependencies": {
     "aws-sdk": "^2.1141.0",
     "bcrypt": "^5.0.1",
