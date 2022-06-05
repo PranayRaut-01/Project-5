@@ -1,0 +1,31 @@
+{
+  "name": "project5",
+  "version": "1.0.0",
+  "description": "Shopping Cart Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PranayRaut-01/Project5_Group42.git"
+  },
+  "author": "Pranay Raut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PranayRaut-01/Project5_Group42/issues"
+  },
+  "homepage": "https://github.com/PranayRaut-01/Project5_Group42#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1141.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.4",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.16"
+  }
+}
